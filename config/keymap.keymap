@@ -31,8 +31,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                &mkp LCLK  &mo 4             &mkp RCLK  &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mkp MB1   &mkp MB3          &mkp MB2   &kp RG(RIGHT_BRACKET)  &kp PAGE_UP
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &tog 0     &kp LC(UP_ARROW)  &trans     &trans                 &trans       &kp C_AC_HOME  &kp PAGE_DOWN
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &kp SPACE  &trans            &trans     &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                &tog 0     &kp LC(UP_ARROW)  &trans     &msc SCRL_UP           &trans       &kp HOME  &kp PAGE_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                &kp SPACE  &msc SCRL_DOWN    &trans     &kp END                &trans
             >;
         };
 
